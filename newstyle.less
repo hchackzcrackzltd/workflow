@@ -1,0 +1,325 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Nov 27, 2016, 11:48:18 AM
+    Author     : HackzCrackz
+*/
+body {
+    font-size: 16px;
+    padding-bottom: 100px;
+    z-index: 1;
+    overflow-x: hidden;
+    background: #f5f5f5;
+}
+.maincolor{
+  background:rgb(154, 185, 59) !important;
+}
+.maintxt{
+  color: #ffffff;
+}
+.btnmain{
+  background: rgb(158, 158, 158) !important;
+}
+div#myDiv {
+    width: 200px;
+    height: 35px;
+    background-color: #9ab93b;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bolder;
+    -ms-transform: rotate(-90deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-90deg);
+    /* Safari */
+    transform: rotate(-90deg);
+    /* Standard syntax */
+    margin-left: -80px;
+    border-radius: 12px;
+    box-shadow: 2px 4px 3px #ebe2e2;
+}
+
+div#myDiv {
+    margin-top: 100px;
+}
+
+.box_first > div > article > p {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.bgcom {
+    background: linear-gradient(180deg, #eeeeee 0%,#e0e0e0 50%,#9e9e9e 100%);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    transition: background-size 2s ease-in-out 1s;
+}
+
+.bgcom-active {
+    background: linear-gradient(180deg, #ffc107 0%,#ffca28 50%,#ffd54f 100%);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    transition: background-size 2s ease-in-out 1s;
+}
+
+.bgcom-complete {
+    background: linear-gradient(180deg, #8bc34a 0%,#9ccc65 50%,#aed581 100%);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    transition: background-size 2s ease-in-out 1s;
+}
+
+.bgcom-error {
+    background: linear-gradient(180deg, #f44336 0%,#ef5350 50%,#e57373 100%);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    transition: background-size 2s ease-in-out 1s;
+}
+
+.bege {
+    display: block;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 0.6em;
+    font-weight: 500;
+    background: rgb(189, 189, 189);
+    color: #616161;
+}
+
+.bege-complete {
+    background: rgb(139,167,51) !important;
+    color: #ffffff !important;
+}
+
+.bege-active {
+    background: rgb(255, 213, 79) !important;
+    color: #000000 !important;
+}
+
+.bege-error {
+    background: rgb(235, 70, 70) !important;
+    color: #ffffff !important;
+}
+
+*::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: hsla(0, 0%, 96%, 0.32);
+}
+
+*::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    width: 12px;
+    background-color: hsla(0, 0%, 96%, 0.32);
+}
+
+*::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: hsla(0, 0%, 96%, 0.32);
+}
+
+.waves-effect.waves-ddd .waves-ripple {
+    background: #c5e1a5;
+}
+
+.del {
+    color: #ffffff;
+}
+
+.del:hover {
+    color: #cccccc;
+}
+
+.box_first div,
+.cur {
+    cursor: pointer;
+}
+
+.text-capa {
+    text-transform: capitalize;
+}
+
+.ps-active {
+    border: 2px #000066 solid !important;
+    color: #000000 !important;
+}
+
+.tags {
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.tags li {
+    float: left;
+}
+
+.tag-red {
+    background: crimson;
+}
+
+.tag-red::after {
+    border-left-color: crimson !important;
+}
+
+.tag {
+    cursor: pointer;
+    border-radius: 3px 0 0 3px;
+    color: #fff !important;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 20px 0 23px;
+    position: relative;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    -webkit-transition: color 0.2s;
+}
+
+.tag::before {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+    content: '';
+    height: 6px;
+    left: 10px;
+    position: absolute;
+    width: 6px;
+    top: 10px;
+}
+
+.tag::after {
+    background: #fff;
+    border-bottom: 13px solid transparent;
+    border-left: 10px solid #eee;
+    border-top: 13px solid transparent;
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.progress {
+    background-color: #d8d8d8 !important;
+}
+#canvas {
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+@media all and(min-width:320px) {
+    .box_first {
+        position: absolute;
+        left: 50px;
+        margin-top: 20px;
+        min-width: 1280px;
+        height: 200px;
+        padding-left: 1%;
+        z-index: 2;
+    }
+
+    .box_first > div {
+        margin-right: 4% !important;
+    }
+
+    .box_first > div > article {
+        border: 2px #bdbdbd solid;
+        text-transform: capitalize;
+        background: #ffffff;
+        color: #bdbdbd;
+        font-size: 1.1em;
+        min-width: 100px;
+        height: 120px;
+        display: table;
+        vertical-align: middle;
+        border-radius: 8px;
+    }
+
+    hr {
+        min-width: 1280px;
+        margin-top: 100px;
+        border: 2px #9ab93b dashed;
+    }
+}
+@media all and(max-width:992px) {
+    .box_first {
+        position: absolute;
+        left: 50px;
+        margin-top: 20px;
+        min-width: 1280px;
+        height: 200px;
+        padding-left: 1%;
+        z-index: 2;
+    }
+
+    .box_first > div {
+        margin-right: 4% !important;
+    }
+
+    .box_first > div > article {
+        border: 2px #bdbdbd solid;
+        text-transform: capitalize;
+        background: #ffffff;
+        color: #bdbdbd;
+        font-size: 1.1em;
+        min-width: 100px;
+        height: 120px;
+        display: table;
+        vertical-align: middle;
+        border-radius: 8px;
+    }
+
+    hr {
+        min-width: 1280px;
+        margin-top: 100px;
+        border: 2px #9ab93b dashed;
+    }
+}
+@media all and(min-width:993px) {
+    .box_first {
+        position: absolute;
+        left: 50px;
+        margin-top: 20px;
+        min-width: 1440px;
+        height: 200px;
+        padding-left: 1%;
+        z-index: 2;
+    }
+
+    .box_first > div {
+        margin-right: 2% !important;
+    }
+
+    .box_first > div > article {
+        border: 2px #bdbdbd solid;
+        text-transform: capitalize;
+        background: #ffffff;
+        color: #bdbdbd;
+        font-size: 1.1em;
+        min-width: 100px;
+        height: 120px;
+        display: table;
+        vertical-align: middle;
+        border-radius: 8px;
+    }
+
+    hr {
+        min-width: 1440px;
+        margin-top: 100px;
+        border: 2px #9ab93b dashed;
+    }
+}
